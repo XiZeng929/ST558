@@ -9,7 +9,7 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#Introduction  
+# Introduction  
 This document is a vignette to show how to retrieve data from an API. In this project, we will be interacting with the API for financial data. Also, we will build a few functions to interact with some of the endpoints as well as retrieve data to perform a basic exploratory data analysis.  
 
 #Requirements  
