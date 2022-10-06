@@ -2,7 +2,7 @@
 title: "ST558 updatecheck"
 author: "Xi Zeng"
 date: "2022-09-14"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
