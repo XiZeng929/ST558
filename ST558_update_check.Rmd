@@ -2,7 +2,8 @@
 title: "ST558 updatecheck"
 author: "Xi Zeng"
 date: "2022-09-14"
-output: github_document
+output: 
+  github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +29,8 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+library(rmarkdown)
+rmarkdown::render(input = "ST558 update check.Rmd",
+                  output_file = "README.md")
+```
